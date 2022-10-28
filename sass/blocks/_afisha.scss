@@ -1,0 +1,70 @@
+.afisha{
+    margin-top: 184px;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__buy{
+        width: 100%;
+    }
+    &__title{
+        position: relative;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 36px;
+        letter-spacing: 0.01em;
+        color: $black-colors;
+        span{
+            position: absolute;
+            top: 56px;
+            left: 50%;
+            width: 50px;
+            height: 4px;
+            background: #0077C0;
+            border-radius: 0px 10px 10px 0px;
+        }
+    }
+    &__subtitle{
+        margin-top: 46px;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 25px;
+        letter-spacing: 0.01em;
+        color: $black-colors;
+    }
+    &__picters{
+        position: relative;
+        width: 100%;
+        &-circle{
+            width: 252px;
+            height: 252px;
+            opacity: 0.4;
+            filter: blur(125px);
+            &_blue{
+                position: absolute;
+                top: -35px;
+                left: -29px;
+                background: #009EFF;
+            }
+            &_red{
+                position: absolute;
+                top: -35px;
+                right: -19px;
+                background: #FF0000;
+            }
+        }
+        &-img{
+            position: absolute;
+            width: 100%;
+            top: 0;
+        }
+    }
+    &__link{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 0.01em;
+        color: #FAFAFA;
+    }
+    
+}

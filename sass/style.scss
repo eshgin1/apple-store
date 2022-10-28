@@ -1,0 +1,33 @@
+@import 'base/variables';
+
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration { display: none; }
+*{
+    font-family: 'Noah', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    position: relative;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+@import 'blocks/header';
+@import 'blocks/afisha';
+@import 'blocks/button';
+@import 'blocks/popular';
+@import 'blocks/nav';
+@import 'blocks/products';
+@import 'blocks/fon';
+@import 'blocks/modal';
+@import 'blocks/burger';
+@import 'blocks/media';

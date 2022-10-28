@@ -1,0 +1,124 @@
+.popular{
+    padding: 90px 0 106px 0;
+    &__title{
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 34px;
+        color: $black-colors;
+    }
+    &__grid{
+        margin-top: 90px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 252px 258px 252px;
+        grid-template-rows: 258px 218px 218px;
+        gap: 41px;
+    }
+    &__name{
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 34px;
+        color: #1D242B;
+    }
+    &__price{
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 34px;
+        color: #BABABA;
+    }
+    &__info{
+        &_ml25px{
+            margin-left: 25px;
+        }
+        &_ml103px{
+            margin-top: 20px;
+            margin-left: 103px;
+        }
+        &_mr25px{
+            margin-right: 25px;
+        }
+    }
+    &__img{
+        &-iphone{
+            margin-left: 33px;
+        }
+        &-ipad{
+            margin-left: 101px;
+        }
+        &-tv{
+            margin-left: 25px;
+        }
+        &-imac{
+            margin-left: 9px;
+        }
+    }
+    &__card{
+        background: #FFFFFF;
+        box-shadow: 4px 24px 60px rgba(109, 141, 173, 0.1);
+        border-radius: 25px;
+        cursor: pointer;
+        &:hover{
+            box-shadow: 4px 24px 60px rgba(109, 141, 173, 0.3);
+        }
+        &_heigth418px{
+            height: 418px;
+        }
+        &_heigth252px{
+            height: 252px;
+        }
+        &_heigth218px{
+            height: 218px;
+        }
+        &-iphone{
+            grid-row-start: 1;
+            grid-row-end: 3;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-bottom: 20px;
+        }
+        &-ipad{
+            display: flex;
+            flex-direction: column;
+        }
+        &-glasses{
+            margin-top: -79px;
+            padding-top: 22px;
+        }
+        &-airpods{
+            display: flex;
+            align-items: center;
+        }
+        &-tv{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            padding: 20px 18px 0 0;
+            display: flex;
+            flex-direction: column;
+        }
+        &-imac{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            padding: 68px 0 20px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items:flex-end;
+        }
+    }
+    &__image{
+        &_ipad{
+            width: 100px;
+        }
+        &_tv{
+            width: 150px;
+        }
+    }
+    &__img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,14 @@
+.burger{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    &__line{
+        margin-top: 2px;
+        width: 10px;
+        height: 4px;
+        background: $black-colors;
+        &_long{
+            width: 20px;
+        }
+    }
+}

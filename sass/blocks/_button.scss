@@ -1,0 +1,12 @@
+.button{
+    margin-top: 73px;
+    width: 221px;
+    height: 70px;
+    padding: 11px 30px;
+    background: $black-colors;
+    box-shadow: 4px 24px 60px rgba(109, 141, 173, 0.4);
+    border-radius: 50px;
+    &:hover{
+        opacity: 0.8;
+    }
+}

@@ -1,0 +1,14 @@
+
+.fon{
+    z-index: -1;
+    &__blue{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    &__gold{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
